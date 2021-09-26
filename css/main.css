@@ -1,0 +1,109 @@
+body {
+  background-color: #f7f6f3;
+}
+a {
+  color: blue;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.jumbotron {
+  background-image: url(/images/gavel-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 95vh;
+  width: 100%;
+}
+.jumbo-text {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  font-size: 5rem;
+  padding: 20px 30px 50px;
+  width: 50%;
+}
+.header {
+  border-bottom: 0.5px solid rgba(255,255,255,.15);
+  box-sizing: border-box;
+  display: flex;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header a{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-nav {
+  display: flex;
+  padding: 3vh 10vw 3vh 0;
+  text-align: center;
+}
+.header-nav li {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header-nav li ~ li {
+  border-left: 1px solid #fff;
+  padding-left: 15px;
+}
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ccc;
+  text-decoration: underline;
+}
+.header-logo {
+  display: flex;
+  padding-left: 3vw;
+  margin: auto 0;
+}
+.label {
+  padding: 20px 20px 0;
+  text-decoration: underline;
+}
+.container {
+  padding-bottom: 30px;
+}
+.main-intro {
+  padding: 7.25%;
+  width: 65%;
+}
+.content {
+  background-color: #e3e2e1;
+  padding: 7.25%;
+  padding-right: 20%;
+}
+.left-content {
+  padding: 20px;
+  width: 50%;
+}
+.right-content {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.row {
+  border: 1px solid black;
+  box-shadow: 5px 10px #888888;
+  display: flex;
+  margin-top: 15px;
+  padding-right: 20px;
+}
+.row-even {
+}
+.more-info {
+  padding-top: 30px;
+}
